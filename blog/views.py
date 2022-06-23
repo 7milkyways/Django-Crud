@@ -1,6 +1,7 @@
 from dataclasses import fields
 from django.shortcuts import render
 from django.views.generic import ListView
+from django.urls import reverse_lazy
 from .models import Post
 # Create your views here.
 
